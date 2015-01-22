@@ -1,5 +1,5 @@
 # jquery.addPrefixedClass
-A jQuery plugin for adding mutually exclusive classes to DOM elements
+A jQuery plugin for adding mutually-exclusive classes to DOM elements
 
 # Usage
 
@@ -13,4 +13,3 @@ $('div.mynode').addPrefixedClass('foo', 'baz')
 $('div.mynode').removePrefixedClass('foo')
 // div.mynode.foo-baz becomes div.mynode
 ```
-
