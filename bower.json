@@ -1,0 +1,21 @@
+{
+  "name": "jquery.addPrefixedClass",
+  "main": "jquery.addPrefixedClass.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pascalpp/jquery.addPrefixedClass",
+  "authors": [
+    "Pascal <pascal@pascal.com>"
+  ],
+  "description": "A jQuery plugin for adding mutually exclusive classes to DOM elements",
+  "keywords": [
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
