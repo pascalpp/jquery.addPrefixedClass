@@ -18,7 +18,7 @@ e.g. $('.profile.type-foo').addPrefixedClass('type', 'bar') will become .profile
 }(this, function($){
 	'use strict';
 	$.fn.addPrefixedClass = function(prefix, suffix) {
-		var regex = new RegExp(prefix+'-.+'),
+		var regex = new RegExp('^'+prefix+'-.+'),
 			classname = prefix+'-'+suffix;
 
 		return this.each(function() {
@@ -35,7 +35,7 @@ e.g. $('.profile.type-foo').addPrefixedClass('type', 'bar') will become .profile
 		});
 	};
 	$.fn.removePrefixedClass = function(prefix) {
-		var regex = new RegExp(prefix+'-.+');
+		var regex = new RegExp('^'+prefix+'-.+');
 
 		return this.each(function() {
 			var $this = $(this);
