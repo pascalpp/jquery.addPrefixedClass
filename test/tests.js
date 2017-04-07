@@ -86,4 +86,3 @@ QUnit.test('doesn\'t affect unrelated classes', function(assert) {
 	});
 
 });
-
