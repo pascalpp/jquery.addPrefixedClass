@@ -1,6 +1,6 @@
 {
-  "name": "jquery.addPrefixedClass",
-  "version": "0.1.1",
+  "name": "jquery-add-prefixed-class",
+  "version": "0.1.2",
   "description": "A jQuery plugin for adding mutually exclusive classes to DOM elements",
   "main": "jquery.addPrefixedClass.js",
   "directories": {
