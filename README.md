@@ -10,12 +10,12 @@ $ npm install jquery-add-prefixed-class --save
 # Usage
 
 ```
-$('div.mynode').addPrefixedClass('foo', 'bar')
-// div.mynode becomes div.mynode.foo-bar
+$('div.mynode').addPrefixedClass('panel', 'left')
+// div.mynode becomes div.mynode.panel-left
 
-$('div.mynode').addPrefixedClass('foo', 'baz')
-// div.mynode.foo-bar becomes div.mynode.foo-baz
+$('div.mynode').addPrefixedClass('panel', 'right')
+// div.mynode.panel-left becomes div.mynode.panel-right
 
-$('div.mynode').removePrefixedClass('foo')
-// div.mynode.foo-baz becomes div.mynode
+$('div.mynode').removePrefixedClass('panel')
+// div.mynode.panel-right becomes div.mynode
 ```
